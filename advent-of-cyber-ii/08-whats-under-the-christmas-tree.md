@@ -10,7 +10,7 @@ description: Networking - NMAP
 
 ## Resources
 
-[Penetration Testing Execution Standard](http://www.pentest-standard.org/index.php/Main_Page) \(PTES\)
+[Penetration Testing Execution Standard](http://www.pentest-standard.org/index.php/Main\_Page) (PTES)
 
 Connect Scan - `nmap -sT <ip>`
 
@@ -20,25 +20,25 @@ SYN Scan - `nmap -sS <ip>`
 
 `nmap --script ftp-proftpd-backdoor -p 21 <ip_address>`
 
-| Flag | Description |
-| :--- | :--- |
-| -A | Scan the host to identify services running by matching against Nmap's database with OS detection |
-| -O | Scan the host to retrieve and perform OS detection |
-| -p | Scan a specific port number on the host. A range of ports can also be provided \(i.e. 10-100\) by using the first and last value of the range |
-| -p- | Scan all ports \(0-65535\) on the host |
-| -sV | Scan the host using TCP and perform version fingerprinting |
+| Flag | Description                                                                                                                                 |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| -A   | Scan the host to identify services running by matching against Nmap's database with OS detection                                            |
+| -O   | Scan the host to retrieve and perform OS detection                                                                                          |
+| -p   | Scan a specific port number on the host. A range of ports can also be provided (i.e. 10-100) by using the first and last value of the range |
+| -p-  | Scan all ports (0-65535) on the host                                                                                                        |
+| -sV  | Scan the host using TCP and perform version fingerprinting                                                                                  |
 
 ## Challenge
 
 ### When was Snort created?
 
-> https://en.wikipedia.org/wiki/Snort\_\(software\)
+> https://en.wikipedia.org/wiki/Snort\_(software)
 
 {% hint style="success" %}
 1998
 {% endhint %}
 
-### Using Nmap on 10.10.127.159 , what are the port numbers of the three services running? \(Please provide your answer in ascending order/lowest -&gt; highest, separated by a comma\)
+### Using Nmap on 10.10.127.159 , what are the port numbers of the three services running? (Please provide your answer in ascending order/lowest -> highest, separated by a comma)
 
 {% hint style="success" %}
 80,2222,3389
@@ -58,15 +58,15 @@ No answer needed
 
 ### Use Nmap to determine the name of the Linux distribution that is running, what is reported as the most likely distribution to be running?
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](<../.gitbook/assets/image (59).png>)
 
 {% hint style="success" %}
 Ubuntu
 {% endhint %}
 
-### Use Nmap's Network Scripting Engine \(NSE\) to retrieve the "HTTP-TITLE" of the webserver. Based on the value returned, what do we think this website might be used for?
+### Use Nmap's Network Scripting Engine (NSE) to retrieve the "HTTP-TITLE" of the webserver. Based on the value returned, what do we think this website might be used for?
 
-![](../.gitbook/assets/image%20%2835%29.png)
+![](<../.gitbook/assets/image (60).png>)
 
 {% hint style="success" %}
 Blog
@@ -77,4 +77,3 @@ Blog
 {% hint style="success" %}
 No answer needed
 {% endhint %}
-

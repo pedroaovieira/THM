@@ -1,5 +1,5 @@
 ---
-description: 'https://tryhackme.com/room/hello'
+description: https://tryhackme.com/room/hello
 ---
 
 # Welcome
@@ -29,4 +29,3 @@ flag{connection\_verified}
 {% hint style="success" %}
 No answer needed
 {% endhint %}
-

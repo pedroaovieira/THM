@@ -2,7 +2,7 @@
 
 Please help us improve by answer this 5 minute survey! [https://forms.gle/iixyNWzyZupumsPN7](https://forms.gle/iixyNWzyZupumsPN7)
 
-![](../.gitbook/assets/image%20%28362%29.png)
+![](<../.gitbook/assets/image (375).png>)
 
 {% hint style="success" %}
 thm{thank\_you\_2020}
@@ -19,4 +19,3 @@ The prize winners will be announced on the 26th of December - You have until the
 {% hint style="success" %}
 No answer needed
 {% endhint %}
-

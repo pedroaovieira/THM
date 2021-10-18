@@ -1,5 +1,5 @@
 ---
-description: 'https://tryhackme.com/room/linux3'
+description: https://tryhackme.com/room/linux3
 ---
 
 # Linux Fundamentals Part 3
@@ -18,24 +18,24 @@ No answer needed
 No answer needed
 {% endhint %}
 
-## Task 2 \[Section 5: Advanced File Operations\] - cp
+## Task 2 \[Section 5: Advanced File Operations] - cp
 
-cp duplicates\(copies\) files. The syntax is  `cp <file> <destination>` 
+cp duplicates(copies) files. The syntax is  `cp <file> <destination>`&#x20;
 
 {% hint style="success" %}
 No answer needed
 {% endhint %}
 
-## Task 3 \[Section 5: Advanced file Operations\] - cd && mkdir
+## Task 3 \[Section 5: Advanced file Operations] - cd && mkdir
 
 Linux allows you to change the location of the current directory through the use of the cd command. The syntax of the cd command is this, `cd <directory>`.
 
 This brings us to mkdir, occasionally you'll want to make a new directory to store files in, and that is done using mkdir, the syntax of mkdir is `mkdir <directory name>`.
 
-###  Using relative paths, how would you cd to your home directory.
+### &#x20;Using relative paths, how would you cd to your home directory.
 
 {% hint style="success" %}
-cd ~
+cd \~
 {% endhint %}
 
 ### Using absolute paths how would you make a directory called test in /tmp
@@ -44,7 +44,7 @@ cd ~
 mkdir /tmp/test
 {% endhint %}
 
-## Task 4 \[Section 5: Advanced File Operations\] ln
+## Task 4 \[Section 5: Advanced File Operations] ln
 
 The ln syntax is `ln source destination`.
 
@@ -56,14 +56,14 @@ The syntax for a symbolic link is the exact same, but it uses the -s flag, so to
 ln /home/test/testfile /tmp/test
 {% endhint %}
 
-## Task 5 \[Section 5 - Advanced File Operations\]: find
+## Task 5 \[Section 5 - Advanced File Operations]: find
 
 The true power of this command though comes from the parameters you can provide it. You can use `find dir -user` , to list every file owned by a specific user; you can use `find dir -group` to list every file owned by a specific group.
 
 ### How do you find files that have specific permissions?
 
 {% hint style="success" %}
--perm
+\-perm
 {% endhint %}
 
 ### How would you find all the files in /home
@@ -78,14 +78,14 @@ find /home
 find / -user paradox
 {% endhint %}
 
-## Task 6 \[Section 5: Advanced File Operations\] - grep
+## Task 6 \[Section 5: Advanced File Operations] - grep
 
 `grep <regular expression> <file>`
 
 ### What flag lists line numbers for every string found?
 
 {% hint style="success" %}
--n
+\-n
 {% endhint %}
 
 ### How would I search for the string boop in the file aaaa in the directory /tmp
@@ -102,7 +102,7 @@ grep boop /tmp/aaaa
 test1234
 {% endhint %}
 
-## Task 8 \[Section 6: Miscellaneous\]: Intro
+## Task 8 \[Section 6: Miscellaneous]: Intro
 
 ### Read the above
 
@@ -110,14 +110,14 @@ test1234
 No answer needed
 {% endhint %}
 
-## Task 9 \[Section 6: Miscellaneous\]: sudo
+## Task 9 \[Section 6: Miscellaneous]: sudo
 
 sudo is Linux's run as administrator button, and the syntax goes `sudo <command>`.
 
 ### How do you specify which user you want to run a command as.
 
 {% hint style="success" %}
--u
+\-u
 {% endhint %}
 
 ### How would I run whoami as user jen?
@@ -126,13 +126,13 @@ sudo is Linux's run as administrator button, and the syntax goes `sudo <command>
 sudo -u jen whoami
 {% endhint %}
 
-### How do you list your current sudo privileges\(what commands you can run, who you can run them as etc.\)
+### How do you list your current sudo privileges(what commands you can run, who you can run them as etc.)
 
 {% hint style="success" %}
--l
+\-l
 {% endhint %}
 
-## Task 10 \[Section 6: Miscellaneous\]: Adding users and groups
+## Task 10 \[Section 6: Miscellaneous]: Adding users and groups
 
 The syntax for both of these commands are `adduser username` and `addgroup groupname`.
 
@@ -142,7 +142,7 @@ The syntax for both of these commands are `adduser username` and `addgroup group
 sudo usermod -a -G test test
 {% endhint %}
 
-## Task 11 \[Section 6: Miscellaneous\]: nano
+## Task 11 \[Section 6: Miscellaneous]: nano
 
 nano is a terminal based text editor. The syntax for nano is `nano <file you want to write to>`
 
@@ -152,9 +152,9 @@ nano is a terminal based text editor. The syntax for nano is `nano <file you wan
 No answer needed
 {% endhint %}
 
-## Task 12 \[Section 6: Miscellaneous\]: Basic shell scripting
+## Task 12 \[Section 6: Miscellaneous]: Basic shell scripting
 
-```text
+```
 #!/bin/bash
 echo hello
 echo whoami
@@ -167,7 +167,7 @@ whoami
 No answer needed
 {% endhint %}
 
-## Task 13 \[Section 6: Miscellaneous\]: Important Files and Directories
+## Task 13 \[Section 6: Miscellaneous]: Important Files and Directories
 
 * /etc/passwd - Stores user information - Often used to see all the users on a system
 * /etc/shadow - Has all the passwords of these users
@@ -186,7 +186,7 @@ No answer needed
 No answer needed
 {% endhint %}
 
-## Task 14 \[Section 6 - Miscellaneous\]: Installing packages\(apt\)
+## Task 14 \[Section 6 - Miscellaneous]: Installing packages(apt)
 
 `apt install package`
 
@@ -196,11 +196,11 @@ No answer needed
 No answer needed
 {% endhint %}
 
-## Task 15 \[Section 6: Miscellaneous\]: Processes
+## Task 15 \[Section 6: Miscellaneous]: Processes
 
 A list of user created processes can be viewed with the `ps` command
 
- To view a list of all system processes, you have to use the `-ef` flag
+&#x20;To view a list of all system processes, you have to use the `-ef` flag
 
 The syntax of kill is `kill <PID>`.
 
@@ -209,4 +209,3 @@ The syntax of kill is `kill <PID>`.
 {% hint style="success" %}
 No answer needed
 {% endhint %}
-

@@ -12,7 +12,7 @@ description: Forensics
 
 With PowerShell, we can obtain the hash of a file by running the following command: `Get-FileHash -Algorithm MD5 file.txt`
 
-Another tool you can use to inspect within a binary file \(.exe\) is `Strings.exe`
+Another tool you can use to inspect within a binary file (.exe) is `Strings.exe`
 
 The command to run for the Strings tool to scan the mysterious executable: `c:\Tools\strings64.exe -accepteula file.exe`
 
@@ -24,7 +24,7 @@ The command to run to launch the hidden executable hiding within ADS: `wmic proc
 
 ### Read the contents of the text file within the Documents folder. What is the file hash for db.exe?
 
-```text
+```
 PS C:\Users\littlehelper> cd .\Documents\
 PS C:\Users\littlehelper\Documents> dir
 PS C:\Users\littlehelper\Documents> cat '.\db file hash.txt'
@@ -36,11 +36,11 @@ PS C:\Users\littlehelper\Documents> cat '.\db file hash.txt'
 
 ### What is the file hash of the mysterious executable within the Documents folder?
 
-```text
+```
 PS C:\Users\littlehelper\Documents> Get-FileHash -Algorithm MD5 deebee.exe
 ```
 
-![](../.gitbook/assets/image%20%28269%29.png)
+![](<../.gitbook/assets/image (275).png>)
 
 {% hint style="success" %}
 5F037501FB542AD2D9B06EB12AED09F0
@@ -48,11 +48,11 @@ PS C:\Users\littlehelper\Documents> Get-FileHash -Algorithm MD5 deebee.exe
 
 ### Using Strings find the hidden flag within the executable?
 
-```text
+```
 PS C:\Users\littlehelper\Documents> c:\Tools\strings64.exe -accepteula .\deebee.exe
 ```
 
-![](../.gitbook/assets/image%20%28255%29.png)
+![](<../.gitbook/assets/image (276).png>)
 
 {% hint style="success" %}
 THM{f6187e6cbeb1214139ef313e108cb6f9}
@@ -60,19 +60,18 @@ THM{f6187e6cbeb1214139ef313e108cb6f9}
 
 ### What is the flag that is displayed when you run the database connector file?
 
-```text
+```
 Get-Item -Path file.exe -Stream *
 ```
 
-![](../.gitbook/assets/image%20%28273%29.png)
+![](<../.gitbook/assets/image (277).png>)
 
-```text
+```
 PS C:\Users\littlehelper\Documents> wmic process call create $(Resolve-Path .\deebee.exe:hidedb)
 ```
 
-![](../.gitbook/assets/image%20%28257%29.png)
+![](<../.gitbook/assets/image (278).png>)
 
 {% hint style="success" %}
 THM{088731ddc7b9fdeccaed982b07c297c}
 {% endhint %}
-

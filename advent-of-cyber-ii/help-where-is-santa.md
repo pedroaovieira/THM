@@ -12,17 +12,17 @@ description: Scripting
 
 What is the port number for the web server?
 
-![](../.gitbook/assets/image%20%28113%29.png)
+![](<../.gitbook/assets/image (112).png>)
 
 {% hint style="success" %}
 8000
 {% endhint %}
 
-Without using enumerations tools such as Dirbuster, what is the directory for the API?  \(without the API key\)
+Without using enumerations tools such as Dirbuster, what is the directory for the API?  (without the API key)
 
-![](../.gitbook/assets/image%20%28121%29.png)
+![](<../.gitbook/assets/image (127).png>)
 
-![](../.gitbook/assets/image%20%28128%29.png)
+![](<../.gitbook/assets/image (128).png>)
 
 {% code title="santa.py" %}
 ```python
@@ -53,7 +53,7 @@ for link in links:
 python3 santa.py |uniq
 ```
 
-![](../.gitbook/assets/image%20%28125%29.png)
+![](<../.gitbook/assets/image (129).png>)
 
 {% hint style="success" %}
 /api/
@@ -61,7 +61,7 @@ python3 santa.py |uniq
 
 Where is Santa right now?
 
-![](../.gitbook/assets/image%20%28112%29.png)
+![](<../.gitbook/assets/image (113).png>)
 
 ```python
 #!/usr/bin/env python3
@@ -73,17 +73,16 @@ for api_key in range(1,100,2):
     print(html.text)
 ```
 
-![](../.gitbook/assets/image%20%28127%29.png)
+![](<../.gitbook/assets/image (132).png>)
 
 {% hint style="success" %}
 Winter Wonderland, Hyde Park, London.
 {% endhint %}
 
-Find out the correct API key. Remember, this is an odd number between 0-100. After too many attempts, Santa's Sled will block you. 
+Find out the correct API key. Remember, this is an odd number between 0-100. After too many attempts, Santa's Sled will block you.&#x20;
 
-To unblock yourself, simply terminate and re-deploy the target instance \(10.10.127.91\) 
+To unblock yourself, simply terminate and re-deploy the target instance (10.10.127.91)&#x20;
 
 {% hint style="success" %}
 57
 {% endhint %}
-

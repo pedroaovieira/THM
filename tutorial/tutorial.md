@@ -1,5 +1,5 @@
 ---
-description: 'https://tryhackme.com/room/tutorial'
+description: https://tryhackme.com/room/tutorial
 ---
 
 # Tutorial
@@ -23,4 +23,3 @@ flag{connection\_verified}
 {% hint style="success" %}
 No answer needed
 {% endhint %}
-

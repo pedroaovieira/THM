@@ -1,5 +1,5 @@
 ---
-description: 'https://tryhackme.com/room/linux2'
+description: https://tryhackme.com/room/linux2
 ---
 
 # Linux Fundamentals Part 2
@@ -37,7 +37,7 @@ The syntax on how to use this command is `ssh <user>@<host>`.
 * username: shiba2
 * password: pinguftw
 
-```text
+```
 ssh shiba2@
 ```
 
@@ -45,7 +45,7 @@ ssh shiba2@
 No answer needed
 {% endhint %}
 
-## Task 4 \[Section 4: Linux Operators\]: "&&"
+## Task 4 \[Section 4: Linux Operators]: "&&"
 
 && means as you might expect "and". Meaning && allows you to execute a second command after the first one has executed successfully.
 
@@ -55,7 +55,7 @@ No answer needed
 No answer needed
 {% endhint %}
 
-## Task 5 \[Section 4: Linux Operators\]: "&"
+## Task 5 \[Section 4: Linux Operators]: "&"
 
 & is a background operator, meaning say you run a command that takes 10 seconds to run, normally you wouldn't be able to run commands during that period; however, with & that command will still execute and you'll be able to run other commands.
 
@@ -65,7 +65,7 @@ No answer needed
 No answer needed
 {% endhint %}
 
-## Task 6 \[Section 4: Linux Operators\]: "$"
+## Task 6 \[Section 4: Linux Operators]: "$"
 
 The $ is an unusually special operator, as it is used to denote environment variables.
 
@@ -73,7 +73,7 @@ The $ is an unusually special operator, as it is used to denote environment vari
 
 Environment variables can also be set pretty easily, just running `export <varname>=<value>` will set that as an environment variable
 
-### How would you set nootnoot equal to 1111 
+### How would you set nootnoot equal to 1111&#x20;
 
 {% hint style="success" %}
 export nootnoot=1111
@@ -81,7 +81,7 @@ export nootnoot=1111
 
 ### What is the value of the home environment variable
 
-```text
+```
 echo $HOME
 ```
 
@@ -89,9 +89,9 @@ echo $HOME
 /home/shiba2
 {% endhint %}
 
-## Task 7 \[Section 4: Linux Operators\]: "\|"
+## Task 7 \[Section 4: Linux Operators]: "|"
 
-The pipe is unique because while operators like &gt;&gt; allow you to store the output of a command, the \| operator allows you to take the output of a command and use it as input for a second command.
+The pipe is unique because while operators like >> allow you to store the output of a command, the | operator allows you to take the output of a command and use it as input for a second command.
 
 ### Read the above
 
@@ -99,7 +99,7 @@ The pipe is unique because while operators like &gt;&gt; allow you to store the 
 No answer needed
 {% endhint %}
 
-## Task 8 \[Section 4: Linux Operators\] - ";"
+## Task 8 \[Section 4: Linux Operators] - ";"
 
 The ; operator works a lot like &&, however it does not require the first command to execute successfully.
 
@@ -109,19 +109,19 @@ The ; operator works a lot like &&, however it does not require the first comman
 No answer needed
 {% endhint %}
 
-## Task 9 \[Section 4: Linux Operators\]: "&gt;"
+## Task 9 \[Section 4: Linux Operators]: ">"
 
-&gt; is the operator for output redirection.
+\> is the operator for output redirection.
 
 ### How would you output twenty to a file called test
 
 {% hint style="success" %}
-echo twenty &gt; test
+echo twenty > test
 {% endhint %}
 
-## Task 10 \[Section 4: Linux Operators\]: "&gt;&gt;"
+## Task 10 \[Section 4: Linux Operators]: ">>"
 
-&gt;&gt; does mainly the same thing as &gt;, with one key difference. &gt;&gt; appends the output of a command to a file, instead of erasing it.
+\>> does mainly the same thing as >, with one key difference. >> appends the output of a command to a file, instead of erasing it.
 
 ### Read the above
 
@@ -133,19 +133,19 @@ No answer needed
 
 What is shiba3's password
 
-```text
+```
 echo $USER
 export test1234=shiba2
 ./shiba2 
 ```
 
-![](../.gitbook/assets/image%20%28135%29.png)
+![](<../.gitbook/assets/image (182).png>)
 
 {% hint style="success" %}
 happynootnoises
 {% endhint %}
 
-## Task 12 \[Section 5 - Advanced File Operations\]: Intro
+## Task 12 \[Section 5 - Advanced File Operations]: Intro
 
 
 
@@ -155,7 +155,7 @@ happynootnoises
 No answer needed
 {% endhint %}
 
-## Task 13 \[Section 5 - Advanced File Operators\]: A bit of background.
+## Task 13 \[Section 5 - Advanced File Operators]: A bit of background.
 
 
 
@@ -165,7 +165,7 @@ No answer needed
 No answer needed
 {% endhint %}
 
-## Task 14 \[Section 5: Advanced File Operations\]: chown
+## Task 14 \[Section 5: Advanced File Operations]: chown
 
 ### How would you change the owner of file to paradox
 
@@ -182,10 +182,10 @@ chown paradox:paradox file
 ### What flag allows you to operate on every file in the directory at once?
 
 {% hint style="success" %}
--R
+\-R
 {% endhint %}
 
-## Task 15 \[Section 5: Advanced File Operations\]: chmod
+## Task 15 \[Section 5: Advanced File Operations]: chmod
 
 `chmod <permissions> <file>`
 
@@ -201,23 +201,23 @@ chown paradox:paradox file
 777
 {% endhint %}
 
-## Task 16 \[Section 5: Advanced File Operations\]: rm
+## Task 16 \[Section 5: Advanced File Operations]: rm
 
 rm  means remove
 
 ### What flag deletes every file in a directory
 
 {% hint style="success" %}
--r
+\-r
 {% endhint %}
 
 ### How do you suppress all warning prompts
 
 {% hint style="success" %}
--f
+\-f
 {% endhint %}
 
-## Task 17 \[Section 5: Advanced File Operations\]: mv
+## Task 17 \[Section 5: Advanced File Operations]: mv
 
 mv allows you to move files from one place to another.
 
@@ -234,4 +234,3 @@ Join the Linux Fundamentals 3 room, and finish learning Linux: [https://tryhackm
 {% hint style="success" %}
 No answer needed
 {% endhint %}
-

@@ -1,5 +1,5 @@
 ---
-description: 'https://tryhackme.com/room/networkservices2'
+description: https://tryhackme.com/room/networkservices2
 ---
 
 # Network Services 2 - wip
@@ -25,4 +25,3 @@ description: 'https://tryhackme.com/room/networkservices2'
 ## Task 10 Exploiting MySQL
 
 ## Task 11 Further Learning
-

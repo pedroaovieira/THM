@@ -10,7 +10,7 @@ description: Special
 
 ## Resources
 
-### OSINT user 
+### OSINT user&#x20;
 
 {% embed url="https://namechk.com/" %}
 
@@ -46,9 +46,9 @@ description: Special
 
 ### What URL will take me directly to Rudolph's Reddit comment history?
 
-![](../.gitbook/assets/image%20%2897%29.png)
+![](<../.gitbook/assets/image (95).png>)
 
-![](../.gitbook/assets/image%20%28108%29.png)
+![](<../.gitbook/assets/image (96).png>)
 
 {% hint style="success" %}
 https://www.reddit.com/user/IGuidetheClaus2020/comments/
@@ -56,7 +56,7 @@ https://www.reddit.com/user/IGuidetheClaus2020/comments/
 
 ### According to Rudolph, where was he born?
 
-![](../.gitbook/assets/image%20%2899%29.png)
+![](<../.gitbook/assets/image (97).png>)
 
 {% hint style="success" %}
 Chicago
@@ -64,7 +64,7 @@ Chicago
 
 ### Rudolph mentions Robert.  Can you use Google to tell me Robert's last name?
 
-![](../.gitbook/assets/image%20%28101%29.png)
+![](<../.gitbook/assets/image (98).png>)
 
 {% hint style="success" %}
 May
@@ -72,7 +72,7 @@ May
 
 ### On what other social media platform might Rudolph have an account?
 
-![](../.gitbook/assets/image%20%28103%29.png)
+![](<../.gitbook/assets/image (99).png>)
 
 {% hint style="success" %}
 Twitter
@@ -80,9 +80,9 @@ Twitter
 
 ### What is Rudolph's username on that platform?
 
-![](../.gitbook/assets/image%20%28111%29.png)
+![](<../.gitbook/assets/image (100).png>)
 
-![](../.gitbook/assets/image%20%28102%29.png)
+![](<../.gitbook/assets/image (101).png>)
 
 {% hint style="success" %}
 IGuideClaus2020
@@ -90,7 +90,7 @@ IGuideClaus2020
 
 ### What appears to be Rudolph's favorite TV show right now?
 
-![](../.gitbook/assets/image%20%28110%29.png)
+![](<../.gitbook/assets/image (102).png>)
 
 {% hint style="success" %}
 Bachelorette
@@ -98,9 +98,9 @@ Bachelorette
 
 ### Based on Rudolph's post history, he took part in a parade.  Where did the parade take place?
 
-![](../.gitbook/assets/image%20%2898%29.png)
+![](<../.gitbook/assets/image (103).png>)
 
-![](../.gitbook/assets/image%20%28106%29.png)
+![](<../.gitbook/assets/image (104).png>)
 
 {% hint style="success" %}
 Chicago
@@ -108,9 +108,9 @@ Chicago
 
 ### Okay, you found the city, but where specifically was one of the photos taken?
 
-![](../.gitbook/assets/image%20%28107%29.png)
+![](<../.gitbook/assets/image (105).png>)
 
-![](../.gitbook/assets/image%20%28100%29.png)
+![](<../.gitbook/assets/image (106).png>)
 
 {% hint style="success" %}
 41.891815, -87.624277
@@ -118,7 +118,7 @@ Chicago
 
 ### Did you find a flag too?
 
-![](../.gitbook/assets/image%20%28105%29.png)
+![](<../.gitbook/assets/image (107).png>)
 
 {% hint style="success" %}
 {FLAG}ALWAYSCHECKTHEEXIFD4T4
@@ -126,9 +126,9 @@ Chicago
 
 ### Has Rudolph been pwned? What password of his appeared in a breach?
 
-![](../.gitbook/assets/image%20%28109%29.png)
+![](<../.gitbook/assets/image (108).png>)
 
-![](../.gitbook/assets/image%20%2896%29.png)
+![](<../.gitbook/assets/image (109).png>)
 
 {% hint style="success" %}
 spygame
@@ -136,11 +136,10 @@ spygame
 
 ### Based on all the information gathered.  It's likely that Rudolph is in the Windy City and is staying in a hotel on Magnificent Mile.  What are the street numbers of the hotel address?
 
-![](../.gitbook/assets/image%20%28104%29.png)
+![](<../.gitbook/assets/image (110).png>)
 
-![](../.gitbook/assets/image%20%2895%29.png)
+![](<../.gitbook/assets/image (111).png>)
 
 {% hint style="success" %}
 540
 {% endhint %}
-

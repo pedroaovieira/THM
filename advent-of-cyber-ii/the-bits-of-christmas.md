@@ -18,7 +18,7 @@ description: Reverse Engineering
 
 Open the "TBFC\_APP" application in ILspy and begin decompiling the code
 
-![](../.gitbook/assets/image%20%28129%29.png)
+![](<../.gitbook/assets/image (120).png>)
 
 {% hint style="success" %}
 No answer needed
@@ -26,25 +26,23 @@ No answer needed
 
 What is Santa's password?
 
-![](../.gitbook/assets/image%20%28132%29.png)
+![](<../.gitbook/assets/image (126).png>)
 
-![](../.gitbook/assets/image%20%28186%29.png)
+![](<../.gitbook/assets/image (134).png>)
 
-![](../.gitbook/assets/image%20%28155%29.png)
+![](<../.gitbook/assets/image (133).png>)
 
 {% hint style="success" %}
 santapassword321
 {% endhint %}
 
-![](../.gitbook/assets/image%20%28130%29.png)
+![](<../.gitbook/assets/image (123).png>)
 
 Now that you've retrieved this password, try to login...What is the flag?
 
-![](../.gitbook/assets/image%20%28126%29.png)
+![](<../.gitbook/assets/image (124).png>)
 
 {% hint style="success" %}
 thm{046af}
 {% endhint %}
-
-
 

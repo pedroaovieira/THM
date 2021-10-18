@@ -30,7 +30,7 @@ encoding
 16
 {% endhint %}
 
-### Can you avoid hash collisions? \(Yea/Nay\)
+### Can you avoid hash collisions? (Yea/Nay)
 
 {% hint style="success" %}
 Nay
@@ -58,7 +58,7 @@ basketball
 
 
 
-![](../.gitbook/assets/image%20%28294%29.png)
+![](<../.gitbook/assets/image (314).png>)
 
 {% hint style="success" %}
 tryhackme
@@ -74,19 +74,19 @@ Nay
 
 Automated hash recognition tools such as [https://pypi.org/project/hashID/](https://pypi.org/project/hashID/)
 
-A great place to find more hash formats and password prefixes is the hashcat example page, available here: [https://hashcat.net/wiki/doku.php?id=example\_hashes](https://hashcat.net/wiki/doku.php?id=example_hashes).
+A great place to find more hash formats and password prefixes is the hashcat example page, available here: [https://hashcat.net/wiki/doku.php?id=example\_hashes](https://hashcat.net/wiki/doku.php?id=example\_hashes).
 
-### How many rounds does sha512crypt \($6$\) use by default?
+### How many rounds does sha512crypt ($6$) use by default?
 
-![](../.gitbook/assets/image%20%28320%29.png)
+![](<../.gitbook/assets/image (319).png>)
 
 {% hint style="success" %}
 5000
 {% endhint %}
 
-### What's the hashcat example hash \(from the website\) for Citrix Netscaler hashes?
+### What's the hashcat example hash (from the website) for Citrix Netscaler hashes?
 
-![](../.gitbook/assets/image%20%28319%29.png)
+![](<../.gitbook/assets/image (317).png>)
 
 {% hint style="success" %}
 1765058016a22f1b4e076dccd1c3df4e8e5c0839ccded98ea
@@ -94,7 +94,7 @@ A great place to find more hash formats and password prefixes is the hashcat exa
 
 ### How long is a Windows NTLM hash, in characters?
 
-![](../.gitbook/assets/image%20%28321%29.png)
+![](<../.gitbook/assets/image (318).png>)
 
 {% hint style="success" %}
 32
@@ -104,15 +104,15 @@ A great place to find more hash formats and password prefixes is the hashcat exa
 
 ### Crack this hash: $2a$06$7yoU3Ng8dHTXphAg913cyO6Bjs3K5lBnwq5FJyA6d01pMSrddr1ZG
 
-{% embed url="https://hashes.com/en/tools/hash\_identifier" %}
+{% embed url="https://hashes.com/en/tools/hash_identifier" %}
 
-![](../.gitbook/assets/image%20%28316%29.png)
+![](<../.gitbook/assets/image (320).png>)
 
-```text
+```
 hashcat -m 3200 5_1.txt /opt/rockyou/rockyou.txt --force
 ```
 
-![](../.gitbook/assets/image%20%28317%29.png)
+![](<../.gitbook/assets/image (321).png>)
 
 {% hint style="success" %}
 85208520
@@ -120,15 +120,15 @@ hashcat -m 3200 5_1.txt /opt/rockyou/rockyou.txt --force
 
 ### Crack this hash: 9eb7ee7f551d2f0ac684981bd1f1e2fa4a37590199636753efe614d4db30e8e1
 
-{% embed url="https://hashes.com/en/tools/hash\_identifier" %}
+{% embed url="https://hashes.com/en/tools/hash_identifier" %}
 
 {% embed url="https://md5hashing.net/hash/sha256/9eb7ee7f551d2f0ac684981bd1f1e2fa4a37590199636753efe614d4db30e8e1" %}
 
-```text
+```
 hashcat -m 1400 5_2.txt /opt/rockyou/rockyou.txt --force
 ```
 
-![](../.gitbook/assets/image%20%28326%29.png)
+![](<../.gitbook/assets/image (323).png>)
 
 {% hint style="success" %}
 halloween
@@ -136,13 +136,13 @@ halloween
 
 ### Crack this hash: $6$GQXVvW4EuM$ehD6jWiMsfNorxy5SINsgdlxmAEl3.yif0/c3NqzGLa0P.S7KRDYjycw5bnYkF5ZtB8wQy8KnskuWQS3Yr1wQ0
 
-![](../.gitbook/assets/image%20%28323%29.png)
+![](<../.gitbook/assets/image (324).png>)
 
-```text
+```
 hashcat -m 1800 5_3.txt /opt/rockyou/rockyou.txt --force
 ```
 
-![](../.gitbook/assets/image%20%28324%29.png)
+![](<../.gitbook/assets/image (325).png>)
 
 {% hint style="success" %}
 spaceman
@@ -150,9 +150,9 @@ spaceman
 
 ### Bored of this yet? Crack this hash: b6b0d451bbf6fed658659a9e7e5598fe
 
-{% embed url="https://hashes.com/en/tools/hash\_identifier" %}
+{% embed url="https://hashes.com/en/tools/hash_identifier" %}
 
-![](../.gitbook/assets/image%20%28322%29.png)
+![](<../.gitbook/assets/image (326).png>)
 
 {% hint style="success" %}
 funforyou
@@ -162,19 +162,18 @@ funforyou
 
 ### What's the SHA1 sum for the amd64 Kali 2019.4 ISO? [http://old.kali.org/kali-images/kali-2019.4/](http://old.kali.org/kali-images/kali-2019.4/)
 
-![](../.gitbook/assets/image%20%28318%29.png)
+![](<../.gitbook/assets/image (315).png>)
 
 {% hint style="success" %}
 186c5227e24ceb60deb711f1bdc34ad9f4718ff9
 {% endhint %}
 
-### What's the hashcat mode number for HMAC-SHA512 \(key = $pass\)?
+### What's the hashcat mode number for HMAC-SHA512 (key = $pass)?
 
-{% embed url="https://hashcat.net/wiki/doku.php?id=example\_hashes" %}
+{% embed url="https://hashcat.net/wiki/doku.php?id=example_hashes" %}
 
-![](../.gitbook/assets/image%20%28315%29.png)
+![](<../.gitbook/assets/image (316).png>)
 
 {% hint style="success" %}
 1750
 {% endhint %}
-

@@ -2,7 +2,7 @@
 
 ## Task 1 Intro
 
-You can also use this site if you don't want to run Sublist3r: [https://dnsdumpster.com/](https://dnsdumpster.com/)
+You can also use this site if you don't want to run Sublist3r: [https://dnsdumpster.com/](https://dnsdumpster.com)
 
 You can find Sublist3r [here](https://github.com/aboul3la/Sublist3r)! We'll install this in the next task.
 
@@ -14,7 +14,7 @@ No answer needed
 
 ### First, let's change to our opt directory: cd /opt
 
-![](../.gitbook/assets/image%20%28228%29.png)
+![](<../.gitbook/assets/image (238).png>)
 
 {% hint style="success" %}
 no answer needed
@@ -40,41 +40,41 @@ no answer needed
 
 ## Task 3 Switchboard
 
-![](../.gitbook/assets/image%20%28231%29.png)
+![](<../.gitbook/assets/image (239).png>)
 
 ### What switch can we use to set our target domain to perform recon on?
 
 {% hint style="success" %}
--d
+\-d
 {% endhint %}
 
-### How about setting which engines we'll use for searching? \(i.e. google, bing, etc\)
+### How about setting which engines we'll use for searching? (i.e. google, bing, etc)
 
 {% hint style="success" %}
--e
+\-e
 {% endhint %}
 
 ### Saving our output is important both so we don't have to run recon again but also so we can return to our returns and review them at a later time. What switch do we use to define an output file?
 
 {% hint style="success" %}
--o
+\-o
 {% endhint %}
 
 ### Sublist3r can sometimes take some time to run but we can speed through up the use of threads. Which switch allows us to set the number of threads?
 
 {% hint style="success" %}
--t
+\-t
 {% endhint %}
 
 ### Last but not least, we can also bruteforce the domains for our target. This isn't always the most useful, however, it can sometimes find a key domain that we might have missed. What switch allows us to enable brute forcing?
 
 {% hint style="success" %}
--b
+\-b
 {% endhint %}
 
 ## Task 4 Scans away!
 
-![](../.gitbook/assets/image%20%28230%29.png)
+![](<../.gitbook/assets/image (240).png>)
 
 ### Let's run sublist3r now against nbc.com, a fairly large American news company. Run this now with the command: python3 sublist3r.py -d nbc.com -o sub-output-nbc.txt
 
@@ -82,7 +82,7 @@ no answer needed
 No answer needed
 {% endhint %}
 
-### Once that completes open up your results and take a look through them. Email domains are almost always interesting and typically have an email portal \(usually Outlook\) located at them. Which subdomain is likely the email portal?
+### Once that completes open up your results and take a look through them. Email domains are almost always interesting and typically have an email portal (usually Outlook) located at them. Which subdomain is likely the email portal?
 
 {% hint style="success" %}
 mail
@@ -123,4 +123,3 @@ ssologin.stg
 {% hint style="success" %}
 office-words
 {% endhint %}
-

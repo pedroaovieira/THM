@@ -1,6 +1,6 @@
 # Searchlight - IMINT
 
-![](../.gitbook/assets/image%20%28202%29.png)
+![](<../.gitbook/assets/image (205).png>)
 
 ## Resources
 
@@ -22,7 +22,7 @@ sl{ready}
 
 ## Task 2 Your first challenge!
 
-![](../.gitbook/assets/image%20%28197%29.png)
+![](<../.gitbook/assets/image (206).png>)
 
 ### What is the name of the street where this image was taken?
 
@@ -32,11 +32,11 @@ sl{carnaby street}
 
 ## Task 3 Just Google it!
 
-![](../.gitbook/assets/image%20%28201%29.png)
+![](<../.gitbook/assets/image (208).png>)
 
 ### Which city is the tube station located in?
 
-![](../.gitbook/assets/image%20%28212%29.png)
+![](<../.gitbook/assets/image (207).png>)
 
 {% hint style="success" %}
 sl{London}
@@ -50,7 +50,7 @@ sl{piccadilly circus}
 
 ### Which year did this station open?
 
-![](../.gitbook/assets/image%20%28205%29.png)
+![](<../.gitbook/assets/image (211).png>)
 
 {% hint style="success" %}
 sl{1906}
@@ -64,13 +64,13 @@ sl{4}
 
 ## Task 4 Keep at it!
 
-![](../.gitbook/assets/image%20%28200%29.png)
+![](<../.gitbook/assets/image (212).png>)
 
-![](../.gitbook/assets/image%20%28215%29.png)
+![](<../.gitbook/assets/image (213).png>)
 
 ### Which building is this photo taken in?
 
-![](../.gitbook/assets/image%20%28220%29.png)
+![](<../.gitbook/assets/image (214).png>)
 
 {% hint style="success" %}
 sl{Vancouver International Airport}
@@ -78,7 +78,7 @@ sl{Vancouver International Airport}
 
 ### Which country is this building located in?
 
-![](../.gitbook/assets/image%20%28198%29.png)
+![](<../.gitbook/assets/image (216).png>)
 
 {% hint style="success" %}
 sl{canada}
@@ -92,9 +92,9 @@ sl{Vancouver}
 
 ## Task 5 Coffee and a light lunch
 
-![](../.gitbook/assets/image%20%28207%29.png)
+![](<../.gitbook/assets/image (219).png>)
 
-![](../.gitbook/assets/image%20%28227%29.png)
+![](<../.gitbook/assets/image (226).png>)
 
 ### Which city is this coffee shop located in?
 
@@ -104,9 +104,9 @@ sl{Blairgowrie}
 
 ### Which street is this coffee shop located in?
 
-![](../.gitbook/assets/image%20%28236%29.png)
+![](<../.gitbook/assets/image (227).png>)
 
-![](../.gitbook/assets/image%20%28239%29.png)
+![](<../.gitbook/assets/image (228).png>)
 
 {% hint style="success" %}
 sl{Allan Street}
@@ -120,7 +120,7 @@ sl{+447878 839128}
 
 ### What is their email address?
 
-![](../.gitbook/assets/image%20%28226%29.png)
+![](<../.gitbook/assets/image (229).png>)
 
 {% hint style="success" %}
 sl{theweecoffeeshop@aol.com}
@@ -134,11 +134,11 @@ sl{Cochrane}
 
 ## Task 6 Reverse your thinking
 
-![](../.gitbook/assets/image%20%28218%29.png)
+![](<../.gitbook/assets/image (221).png>)
 
-![](../.gitbook/assets/image%20%28221%29.png)
+![](<../.gitbook/assets/image (222).png>)
 
-![](../.gitbook/assets/image%20%28224%29.png)
+![](<../.gitbook/assets/image (220).png>)
 
 ### Which restaurant was this picture taken at?
 
@@ -148,7 +148,7 @@ sl{Katz's Deli}
 
 ### What is the name of the Bon Appétit editor that worked 24 hours at this restaurant?
 
-![](../.gitbook/assets/image%20%28211%29.png)
+![](<../.gitbook/assets/image (223).png>)
 
 {% hint style="success" %}
 sl{Andrew Knowlton}
@@ -156,11 +156,11 @@ sl{Andrew Knowlton}
 
 ## Task 7 Locate this sculpture
 
-![](../.gitbook/assets/image%20%28204%29.png)
+![](<../.gitbook/assets/image (224).png>)
 
 ### What is the name of this statue?
 
-![](../.gitbook/assets/image%20%28196%29.png)
+![](<../.gitbook/assets/image (225).png>)
 
 > Rudolph the chrome nosed reindeer at Astrup Fearnley Museum of Modern Art
 
@@ -172,7 +172,7 @@ sl{Rudolph the Chrome Nosed Reindeer}
 
 ### Who took this image?
 
-![](../.gitbook/assets/image%20%28232%29.png)
+![](<../.gitbook/assets/image (230).png>)
 
 {% hint style="success" %}
 sl{Kjersti Stensrud}
@@ -188,7 +188,7 @@ sl{Lady Justice}
 
 ### Where is this statue located?
 
-![](../.gitbook/assets/image%20%28235%29.png)
+![](<../.gitbook/assets/image (231).png>)
 
 {% hint style="success" %}
 sl{Alexandria, Virginia}
@@ -204,13 +204,12 @@ sl{The Westin Alexandria Old Town}
 
 ### What is the name of the hotel that my friend is staying in?
 
-![](../.gitbook/assets/image%20%28244%29.png)
+![](<../.gitbook/assets/image (241).png>)
 
-![](../.gitbook/assets/image%20%28241%29.png)
+![](<../.gitbook/assets/image (246).png>)
 
-![](../.gitbook/assets/image%20%28247%29.png)
+![](<../.gitbook/assets/image (243).png>)
 
 {% hint style="success" %}
 sl{Hotel Novotel Singapore Clarke Quay}
 {% endhint %}
-

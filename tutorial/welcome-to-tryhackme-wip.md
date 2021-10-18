@@ -1,5 +1,5 @@
 ---
-description: 'https://tryhackme.com/room/completebeginner'
+description: https://tryhackme.com/room/completebeginner
 ---
 
 # Welcome to TryHackMe
@@ -22,7 +22,7 @@ No answer needed
 
 ## Task 3 Connecting with Windows
 
-1. [Download](https://swupdate.openvpn.org/community/releases/openvpn-install-2.4.8-I601-Win7.exe) the OpenVPN GUI application.
+1\. [Download](https://swupdate.openvpn.org/community/releases/openvpn-install-2.4.8-I601-Win7.exe) the OpenVPN GUI application.
 
 ### Connect to our network on Windows using your OpenVPN configuration file.
 
@@ -43,7 +43,7 @@ No answer needed
 
 
 1. Download OpenVPN by running the following command in your terminal: `sudo apt install openvpn`
-2. Locate the full path to your VPN configuration file \(download from the access page\), normally in your Downloads folder.
+2. Locate the full path to your VPN configuration file (download from the access page), normally in your Downloads folder.
 3. Use your OpenVPN file with the following command: `sudo openvpn /path-to-file/file-name.ovpn &`
 
 {% hint style="success" %}
@@ -81,4 +81,3 @@ flag{connection\_verified}
 {% hint style="success" %}
 HTTP
 {% endhint %}
-

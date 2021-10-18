@@ -6,7 +6,7 @@ description: Web Exploitation - Cookies
 
 ## Video
 
-{% embed url="https://www.youtube.com/watch?v=BJF84oWHmok&ab\_channel=JohnHammond" %}
+{% embed url="https://www.youtube.com/watch?v=BJF84oWHmok&ab_channel=JohnHammond" %}
 
 ## Rooms
 
@@ -22,11 +22,11 @@ No answer needed
 
 Enter the site and register a new user.
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](<../.gitbook/assets/image (1).png>)
 
 Login with the previous registered user.
 
-![](../.gitbook/assets/image%20%2873%29.png)
+![](<../.gitbook/assets/image (3).png>)
 
 ### What is the name of the cookie used for authentication?
 
@@ -36,7 +36,7 @@ auth
 
 ### In what format is the value of this cookie encoded?
 
-![](../.gitbook/assets/image%20%2876%29.png)
+![](<../.gitbook/assets/image (4).png>)
 
 {% hint style="success" %}
 Hexadecimal
@@ -52,7 +52,7 @@ Figure out how to bypass the authentication.
 
 ### What is the value of Santa's cookie?
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](<../.gitbook/assets/image (5).png>)
 
 {% hint style="success" %}
 7b22636f6d70616e79223a22546865204265737420466573746976616c20436f6d70616e79222c2022757365726e616d65223a2273616e7461227d
@@ -60,11 +60,10 @@ Figure out how to bypass the authentication.
 
 Now that you are the santa user, you can re-activate the assembly line!
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](<../.gitbook/assets/image (6).png>)
 
 ### What is the flag you're given when the line is fully active?
 
 {% hint style="success" %}
 THM{MjY0Yzg5NTJmY2Q1NzM1NjBmZWFhYmQy}
 {% endhint %}
-

@@ -37,7 +37,7 @@ The index is the numerical value that is the location of the string within the f
 
 To change directories, you can use the `Set-Location` cmdlet.
 
-For example, `Set-Location -Path c:\users\administrator\desktop`  will change your location to the Administrator's desktop.
+For example, `Set-Location -Path c:\users\administrator\desktop ` will change your location to the Administrator's desktop.
 
 The last cmdlet that is needed to solve this room is `Select-String`. This cmdlet will search a particular file for a pattern you define within the command to run.
 
@@ -51,13 +51,13 @@ Note: You can always use the `Get-Help` cmdlet to obtain more information about 
 
 `r0ckStar!`
 
-![](../.gitbook/assets/image%20%28223%29.png)
+![](<../.gitbook/assets/image (196).png>)
 
 ```bash
 powershell
 ```
 
-![](../.gitbook/assets/image%20%28222%29.png)
+![](<../.gitbook/assets/image (197).png>)
 
 ### Search for the first hidden elf file within the Documents folder. Read the contents of this file. What does Elf 1 want?
 
@@ -67,7 +67,7 @@ cd .\Documents\                     or        ls -Hidden
 Get-Content -Path .\e1fone.txt      or        cat .\e1fone.txt
 ```
 
-![](../.gitbook/assets/image%20%28194%29.png)
+![](<../.gitbook/assets/image (198).png>)
 
 {% hint style="success" %}
 2 front teeth
@@ -83,13 +83,13 @@ cd .\elf2wo
 Get-Content -Path .\e70smsW10Y4k.txt        or         cat .\e70smsW10Y4k.txt
 ```
 
-![](../.gitbook/assets/image%20%28216%29.png)
+![](<../.gitbook/assets/image (199).png>)
 
 {% hint style="success" %}
 Scrooged
 {% endhint %}
 
-### Search the Windows directory for a hidden folder that contains files for Elf 3. What is the name of the hidden folder? \(This command will take a while\)
+### Search the Windows directory for a hidden folder that contains files for Elf 3. What is the name of the hidden folder? (This command will take a while)
 
 ```bash
 gci C:\Windows\ -Recurse -Directory -Hidden -Filter "*3*" -ErrorAction SilentlyContinue
@@ -98,7 +98,7 @@ ls -Directory -Hidden
 
 ```
 
-![](../.gitbook/assets/image%20%28206%29.png)
+![](<../.gitbook/assets/image (200).png>)
 
 {% hint style="success" %}
 3lfthr3e
@@ -112,7 +112,7 @@ ls -Hidden
 Get-Content -Path 1.txt | Measure-Object -Word        or        (gc .\1.txt).length
 ```
 
-![](../.gitbook/assets/image%20%28213%29.png)
+![](<../.gitbook/assets/image (201).png>)
 
 {% hint style="success" %}
 9999
@@ -125,21 +125,20 @@ Get-Content -Path 1.txt | Measure-Object -Word        or        (gc .\1.txt).len
 (Get-Content -Path 1.txt)[6991]        or        (gc .\1.txt)[6991]
 ```
 
-![](../.gitbook/assets/image%20%28203%29.png)
+![](<../.gitbook/assets/image (202).png>)
 
 {% hint style="success" %}
 Red Ryder
 {% endhint %}
 
-### This is only half the answer. Search in the 2nd file for the phrase from the previous question to get the full answer. What does Elf 3 want? \(use spaces when submitting the answer\)
+### This is only half the answer. Search in the 2nd file for the phrase from the previous question to get the full answer. What does Elf 3 want? (use spaces when submitting the answer)
 
 ```bash
 Select-String -Path .\2.txt -Pattern 'RedRyder'
 ```
 
-![](../.gitbook/assets/image%20%28208%29.png)
+![](<../.gitbook/assets/image (195).png>)
 
 {% hint style="success" %}
 Red Ryder bb gun
 {% endhint %}
-

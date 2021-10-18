@@ -1,5 +1,5 @@
 ---
-description: 'https://tryhackme.com/room/networkservices'
+description: https://tryhackme.com/room/networkservices
 ---
 
 # Network Services - wip
@@ -45,6 +45,4 @@ description: 'https://tryhackme.com/room/networkservices'
 
 
 ## Task 11 Expanding Your Knowledge
-
-
 

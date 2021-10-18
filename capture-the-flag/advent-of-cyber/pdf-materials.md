@@ -2,29 +2,27 @@
 
 
 
-{% file src="../../.gitbook/assets/01\_web-challenge-1-supporting-material.pdf" %}
+{% file src="../../.gitbook/assets/01_Web Challenge 1 Supporting Material.pdf" %}
 
-{% file src="../../.gitbook/assets/02\_christmas-challenge-day-2.pdf" %}
+{% file src="../../.gitbook/assets/02_Christmas Challenge Day 2.pdf" %}
 
-{% file src="../../.gitbook/assets/03\_evil-elf-wireshark-and-password-cracking.pdf" %}
+{% file src="../../.gitbook/assets/03_Evil Elf - Wireshark and Password Cracking.pdf" %}
 
-{% file src="../../.gitbook/assets/04\_challenge-day-4.pdf" %}
+{% file src="../../.gitbook/assets/04_Challenge Day 4.pdf" %}
 
-{% file src="../../.gitbook/assets/05\_ho-ho-hosint.pdf" %}
+{% file src="../../.gitbook/assets/05_Ho-Ho-Hosint.pdf" %}
 
-{% file src="../../.gitbook/assets/06\_challenge-5.pdf" %}
+{% file src="../../.gitbook/assets/06_Challenge 5.pdf" %}
 
-{% file src="../../.gitbook/assets/07\_christmas-networking.pdf" %}
+{% file src="../../.gitbook/assets/07_Christmas Networking.pdf" %}
 
-{% file src="../../.gitbook/assets/08\_linux-privilege-escalation\_-suid.pdf" %}
+{% file src="../../.gitbook/assets/08_Linux Privilege Escalation_ SUID.pdf" %}
 
-{% file src="../../.gitbook/assets/09\_christmas-scripting.pdf" %}
+{% file src="../../.gitbook/assets/09_Christmas Scripting.pdf" %}
 
-{% file src="../../.gitbook/assets/10\_metasploit\_-basics.pdf" %}
+{% file src="../../.gitbook/assets/10_Metasploit_ Basics.pdf" %}
 
-{% file src="../../.gitbook/assets/11\_christmas-network-exploitation.pdf" %}
+{% file src="../../.gitbook/assets/11_Christmas Network Exploitation.pdf" %}
 
-{% file src="../../.gitbook/assets/12\_encryption.pdf" %}
-
-
+{% file src="../../.gitbook/assets/12_Encryption.pdf" %}
 

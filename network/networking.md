@@ -1,5 +1,5 @@
 ---
-description: 'https://tryhackme.com/room/bpnetworking'
+description: https://tryhackme.com/room/bpnetworking
 ---
 
 # Networking - wip

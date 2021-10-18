@@ -1,5 +1,5 @@
 ---
-description: 'https://tryhackme.com/room/rpnmap'
+description: https://tryhackme.com/room/rpnmap
 ---
 
 # Nmap - wip

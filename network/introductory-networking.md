@@ -1,5 +1,5 @@
 ---
-description: 'https://tryhackme.com/room/introtonetworking'
+description: https://tryhackme.com/room/introtonetworking
 ---
 
 # Introductory Networking
@@ -14,13 +14,12 @@ description: 'https://tryhackme.com/room/introtonetworking'
 
 ## Task 5 Wireshark
 
-## Task 6 \[Networking Tools\] Ping
+## Task 6 \[Networking Tools] Ping
 
-## Task 7 \[Networking Tools\] Traceroute
+## Task 7 \[Networking Tools] Traceroute
 
-## Task 8 \[Networking Tools\] WHOIS
+## Task 8 \[Networking Tools] WHOIS
 
-## Task 9 \[Networking Tools\] Dig
+## Task 9 \[Networking Tools] Dig
 
 ## Task 10 Further Reading
-

@@ -1,5 +1,5 @@
 ---
-description: 'https://tryhackme.com/room/startingoutincybersec'
+description: https://tryhackme.com/room/startingoutincybersec
 ---
 
 # Starting Out In Cyber Sec
@@ -39,4 +39,3 @@ penetration tester
 {% hint style="success" %}
 security analyst
 {% endhint %}
-

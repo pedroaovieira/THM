@@ -20,32 +20,32 @@ To find a list of the functions run: `afl`
 
 Let’s examine the assembly code at main by running the command `pdf @main` Where `pdf` means print disassembly function.
 
-| Initial Data Type |  Suffix | Size \(bytes\) |
-| :---: | :---: | :---: |
-| Byte | b | 1 |
-| Word | w | 2 |
-| Double Word | l | 4 |
-| Quad | q | 8 |
-| Single Precision | s | 4 |
-| Double Precision | l | 8 |
+| Initial Data Type |  Suffix | Size (bytes) |
+| :---------------: | :-----: | :----------: |
+|        Byte       |    b    |       1      |
+|        Word       |    w    |       2      |
+|    Double Word    |    l    |       4      |
+|        Quad       |    q    |       8      |
+|  Single Precision |    s    |       4      |
+|  Double Precision |    l    |       8      |
 
 When dealing with memory manipulation using registers, there are other cases to be considered:
 
-* \(Rb, Ri\) = MemoryLocation\[Rb + Ri\]
-* D\(Rb, Ri\) = MemoryLocation\[Rb + Ri + D\]
-* \(Rb, Ri, S\) = MemoryLocation\(Rb + S \* Ri\]
-* D\(Rb, Ri, S\) = MemoryLocation\[Rb + S \* Ri + D\]
+* (Rb, Ri) = MemoryLocation\[Rb + Ri]
+* D(Rb, Ri) = MemoryLocation\[Rb + Ri + D]
+* (Rb, Ri, S) = MemoryLocation(Rb + S \* Ri]
+* D(Rb, Ri, S) = MemoryLocation\[Rb + S \* Ri + D]
 
 Instructions:
 
 * **leaq** source, destination: this instruction sets destination to the address denoted by the expression in source
-* **addq** source, destination: destination = destination + source 
-* **subq** source, destination: destination = destination - source 
-* **imulq** source, destination: destination = destination \* source 
-* **salq** source, destination: destination = destination &lt;&lt; source where &lt;&lt; is the left bit shifting operator
-* **sarq** source, destination: destination = destination &gt;&gt; source where &gt;&gt; is the right bit shifting operator
+* **addq** source, destination: destination = destination + source&#x20;
+* **subq** source, destination: destination = destination - source&#x20;
+* **imulq** source, destination: destination = destination \* source&#x20;
+* **salq** source, destination: destination = destination << source where << is the left bit shifting operator
+* **sarq** source, destination: destination = destination >> source where >> is the right bit shifting operator
 * **xorq** source, destination: destination = destination XOR source andq source, destination: destination = destination & source
-* **orq** source, destination: destination = destination \| source
+* **orq** source, destination: destination = destination | source
 
 A breakpoint specifies where the program should stop executing. `db @memory-address` and the parameter must be the memory address.
 
@@ -63,7 +63,7 @@ The general formula for working through something like this is:
 * use ds to move through instructions and check the values of register and memory
 * if you make a mistake, you can always reload the program using the ood command
 
-[Radare2 Cheatsheet](https://scoding.de/uploads/r2_cs.pdf)
+[Radare2 Cheatsheet](https://scoding.de/uploads/r2\_cs.pdf)
 
 ## Challenge
 
@@ -73,21 +73,21 @@ The general formula for working through something like this is:
 
 **Password:** adventofcyber
 
-```text
+```
 ssh elfmceager@10.10.83.56
 ```
 
-![](../.gitbook/assets/image%20%28114%29.png)
+![](<../.gitbook/assets/image (114).png>)
 
-![](../.gitbook/assets/image%20%28115%29.png)
+![](<../.gitbook/assets/image (115).png>)
 
-What is the value of **local\_ch** when its corresponding movl instruction is called \(first if multiple\)?
+What is the value of **local\_ch** when its corresponding movl instruction is called (first if multiple)?
 
-![](../.gitbook/assets/image%20%28116%29.png)
+![](<../.gitbook/assets/image (116).png>)
 
-![](../.gitbook/assets/image%20%28117%29.png)
+![](<../.gitbook/assets/image (117).png>)
 
-```text
+```
 pdf @main
 db 0x00400b51
 dc
@@ -96,7 +96,7 @@ ds
 px @rbp-0xc
 ```
 
-![](../.gitbook/assets/image%20%28118%29.png)
+![](<../.gitbook/assets/image (118).png>)
 
 {% hint style="success" %}
 1
@@ -104,7 +104,7 @@ px @rbp-0xc
 
 What is the value of **eax** when the imull instruction is called?
 
-```text
+```
 pdf @main
 db 0x00400b66
 dc
@@ -117,16 +117,15 @@ dc
 
 What is the value of **local\_4h** before **eax** is set to 0?
 
-```text
+```
 pdf @main
 db 0x00400b69
 dc
 px @rbp-0x4
 ```
 
-![](../.gitbook/assets/image%20%28119%29.png)
+![](<../.gitbook/assets/image (119).png>)
 
 {% hint style="success" %}
 6
 {% endhint %}
-

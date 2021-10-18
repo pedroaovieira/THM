@@ -1,5 +1,5 @@
 ---
-description: 'https://tryhackme.com/room/intro2win'
+description: https://tryhackme.com/room/intro2win
 ---
 
 # Intro to Windows
@@ -17,4 +17,3 @@ description: 'https://tryhackme.com/room/intro2win'
 ## Task 6 Users and Groups Management
 
 ## Task 7 Creating your first GPO
-

@@ -1,5 +1,5 @@
 ---
-description: 'https://tryhackme.com/room/encryptioncrypto101'
+description: https://tryhackme.com/room/encryptioncrypto101
 ---
 
 # Encryption - Crypto 101
@@ -16,31 +16,31 @@ No answer needed
 
 ## Task 2: Key terms
 
-**Ciphertext -** The result of encrypting a plaintext, encrypted data
+**Ciphertext - **The result of encrypting a plaintext, encrypted data
 
-**Cipher -** A method of encrypting or decrypting data. Modern ciphers are cryptographic, but there are many non cryptographic ciphers like Caesar.
+**Cipher - **A method of encrypting or decrypting data. Modern ciphers are cryptographic, but there are many non cryptographic ciphers like Caesar.
 
-**Plaintext -** Data before encryption, often text but not always. Could be a photograph or other file
+**Plaintext - **Data before encryption, often text but not always. Could be a photograph or other file
 
-**Encryption -** Transforming data into ciphertext, using a cipher.
+**Encryption - **Transforming data into ciphertext, using a cipher.
 
-**Encoding -** NOT a form of encryption, just a form of data representation like base64. Immediately reversible.
+**Encoding - **NOT a form of encryption, just a form of data representation like base64. Immediately reversible.
 
-**Key -** Some information that is needed to correctly decrypt the ciphertext and obtain the plaintext.
+**Key - **Some information that is needed to correctly decrypt the ciphertext and obtain the plaintext.
 
-**Passphrase -** Separate to the key, a passphrase is similar to a password and used to protect a key.
+**Passphrase - **Separate to the key, a passphrase is similar to a password and used to protect a key.
 
-**Asymmetric encryption -** Uses different keys to encrypt and decrypt.
+**Asymmetric encryption - **Uses different keys to encrypt and decrypt.
 
-**Symmetric encryption -** Uses the same key to encrypt and decrypt
+**Symmetric encryption - **Uses the same key to encrypt and decrypt
 
-**Brute force -** Attacking cryptography by trying every different password or every different key
+**Brute force - **Attacking cryptography by trying every different password or every different key
 
-**Cryptanalysis -** Attacking cryptography by finding a weakness in the underlying maths
+**Cryptanalysis - **Attacking cryptography by finding a weakness in the underlying maths
 
-**Alice and Bob -** Used to represent 2 people who generally want to communicate. They’re named Alice and Bob because this gives them the initials A and B.
+**Alice and Bob - **Used to represent 2 people who generally want to communicate. They’re named Alice and Bob because this gives them the initials A and B.
 
-### I agree not to complain too much about how theory heavy this room is. 
+### I agree not to complain too much about how theory heavy this room is.&#x20;
 
 {% hint style="success" %}
 No answer needed
@@ -56,7 +56,7 @@ passphrase
 
 Cryptography is used to protect confidentiality, ensure integrity, ensure authenticity. You use cryptography every day most likely, and you’re almost certainly reading this now over an encrypted connection.
 
-###  What does SSH stand for? 
+### &#x20;What does SSH stand for?&#x20;
 
 {% hint style="success" %}
 Secure Shell
@@ -76,9 +76,9 @@ PCI-DSS
 
 ## Task 4: Crucial Crypto Maths
 
-###  What's 30 % 5?
+### &#x20;What's 30 % 5?
 
-![](../.gitbook/assets/image%20%28149%29.png)
+![](<../.gitbook/assets/image (171).png>)
 
 {% hint style="success" %}
 0
@@ -86,7 +86,7 @@ PCI-DSS
 
 ### What's 25 % 7
 
-![](../.gitbook/assets/image%20%28141%29.png)
+![](<../.gitbook/assets/image (172).png>)
 
 {% hint style="success" %}
 4
@@ -94,7 +94,7 @@ PCI-DSS
 
 ### What's 118613842 % 9091
 
-![](../.gitbook/assets/image%20%28173%29.png)
+![](<../.gitbook/assets/image (173).png>)
 
 {% hint style="success" %}
 3565
@@ -104,13 +104,13 @@ PCI-DSS
 
 The two main categories of Encryption are symmetric and asymmetric.
 
-**Symmetric encryption** uses the same key to encrypt and decrypt the data. Examples of Symmetric encryption are DES \(Broken\) and AES. These algorithms tend to be faster than asymmetric cryptography, and use smaller keys \(128 or 256 bit keys are common for AES, DES keys are 56 bits long\).
+**Symmetric encryption** uses the same key to encrypt and decrypt the data. Examples of Symmetric encryption are DES (Broken) and AES. These algorithms tend to be faster than asymmetric cryptography, and use smaller keys (128 or 256 bit keys are common for AES, DES keys are 56 bits long).
 
 **Asymmetric encryption** uses a pair of keys, one to encrypt and the other in the pair to decrypt. Examples are RSA and Elliptic Curve Cryptography. Normally these keys are referred to as a public key and a private key. Data encrypted with the private key can be decrypted with the public key, and vice versa. Your private key needs to be kept private, hence the name. Asymmetric encryption tends to be slower and uses larger keys, for example RSA typically uses 2048 to 4096 bit keys.
 
-RSA and Elliptic Curve cryptography are based around different mathematically difficult \(intractable\) problems, which give them their strength. More about RSA later.
+RSA and Elliptic Curve cryptography are based around different mathematically difficult (intractable) problems, which give them their strength. More about RSA later.
 
-###  Should you trust DES? Yea/Nay
+### &#x20;Should you trust DES? Yea/Nay
 
 {% hint style="success" %}
 Nay
@@ -130,9 +130,9 @@ Yea
 
 ## Task 6: RSA - Rivest Shamir Adleman
 
-#### The math\(s\) side
+#### The math(s) side
 
-RSA is based on the mathematically difficult problem of working out the factors of a large number. It’s very quick to multiply two prime numbers together, say 17\*23 = 391, but it’s quite difficult to work out what two prime numbers multiply together to make 14351 \(113x127 for reference\).
+RSA is based on the mathematically difficult problem of working out the factors of a large number. It’s very quick to multiply two prime numbers together, say 17\*23 = 391, but it’s quite difficult to work out what two prime numbers multiply together to make 14351 (113x127 for reference).
 
 #### The attacking side
 
@@ -146,7 +146,7 @@ The key variables that you need to know about for RSA in CTFs are p, q, m, n, e,
 
 The public key is n and d, the private key is n and e.
 
-“m” is used to represent the message \(in plaintext\) and “c” represents the ciphertext \(encrypted text\).
+“m” is used to represent the message (in plaintext) and “c” represents the ciphertext (encrypted text).
 
 #### CTFs involving RSA
 
@@ -158,7 +158,7 @@ There’s a lot more maths to RSA, and it gets quite complicated fairly quickly.
 
 {% embed url="https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html" %}
 
-![](../.gitbook/assets/image%20%28162%29.png)
+![](<../.gitbook/assets/image (175).png>)
 
 {% hint style="success" %}
 29239669
@@ -194,9 +194,9 @@ You’ve only used asymmetric cryptography once, so it’s fast, and you can now
 
 #### The Real World
 
-In reality, you need a little more cryptography to verify the person you’re talking to is who they say they are, which is done using digital signatures and certificates. You can find a lot more detail on how HTTPS \(one example where you need to exchange keys\) really works from this excellent blog post. [https://robertheaton.com/2014/03/27/how-does-https-actually-work/](https://robertheaton.com/2014/03/27/how-does-https-actually-work/)
+In reality, you need a little more cryptography to verify the person you’re talking to is who they say they are, which is done using digital signatures and certificates. You can find a lot more detail on how HTTPS (one example where you need to exchange keys) really works from this excellent blog post. [https://robertheaton.com/2014/03/27/how-does-https-actually-work/](https://robertheaton.com/2014/03/27/how-does-https-actually-work/)
 
-### I understand how keys can be established using Public Key \(asymmetric\) cryptography.
+### I understand how keys can be established using Public Key (asymmetric) cryptography.
 
 {% hint style="success" %}
 No answer needed
@@ -214,13 +214,13 @@ The simplest form of digital signature would be encrypting the document with you
 
 Certificates are also a key use of public key cryptography, linked to digital signatures. A common place where they’re used is for HTTPS. How does your web browser know that the server you’re talking to is the real tryhackme.com?
 
-The answer is certificates. The web server has a certificate that says it is the real tryhackme.com. The certificates have a chain of trust, starting with a root CA \(certificate authority\). Root CAs are automatically trusted by your device, OS, or browser from install. Certs below that are trusted because the Root CAs say they trust that organisation. Certificates below that are trusted because the organisation is trusted by the Root CA and so on. There are long chains of trust. Again, this blog post explains this much better than I can. [https://robertheaton.com/2014/03/27/how-does-https-actually-work/](https://robertheaton.com/2014/03/27/how-does-https-actually-work/)
+The answer is certificates. The web server has a certificate that says it is the real tryhackme.com. The certificates have a chain of trust, starting with a root CA (certificate authority). Root CAs are automatically trusted by your device, OS, or browser from install. Certs below that are trusted because the Root CAs say they trust that organisation. Certificates below that are trusted because the organisation is trusted by the Root CA and so on. There are long chains of trust. Again, this blog post explains this much better than I can. [https://robertheaton.com/2014/03/27/how-does-https-actually-work/](https://robertheaton.com/2014/03/27/how-does-https-actually-work/)
 
 You can get your own HTTPS certificates for domains you own using Let’s Encrypt for free. If you run a website, it’s worth setting it up.
 
 ### What company is TryHackMe's certificate issued to?
 
-![](../.gitbook/assets/image%20%28157%29.png)
+![](<../.gitbook/assets/image (176).png>)
 
 {% hint style="success" %}
 Cloudflare
@@ -230,7 +230,7 @@ Cloudflare
 
 `ssh-keygen` is the program used to generate pairs of keys most of the time.
 
-The ~/.ssh folder is the default place to store these keys for OpenSSH. The `authorized_keys` \(note the US English spelling\) file in this directory holds public keys that are allowed to access the server if key authentication is enabled.
+The \~/.ssh folder is the default place to store these keys for OpenSSH. The `authorized_keys` (note the US English spelling) file in this directory holds public keys that are allowed to access the server if key authentication is enabled.
 
 `ssh -i keyNameGoesHere user@host` is how you specify a key for the standard Linux OpenSSH client.
 
@@ -248,7 +248,7 @@ No answer needed
 
 ### What algorithm does the key use?
 
-![](../.gitbook/assets/image%20%28184%29.png)
+![](<../.gitbook/assets/image (178).png>)
 
 {% hint style="success" %}
 RSA
@@ -256,13 +256,13 @@ RSA
 
 ### Crack the password with John The Ripper and rockyou, what's the passphrase for the key?
 
-```text
+```
 locate ssh2john
 /usr/share/john/ssh2john.py id_rsa > id_rsa.hash
 john id_rsa.hash --wordlist="/usr/share/wordlists/rockyou.txt"
 ```
 
-![](../.gitbook/assets/image%20%28136%29.png)
+![](<../.gitbook/assets/image (179).png>)
 
 {% hint style="success" %}
 delicious
@@ -290,7 +290,7 @@ An excellent video if you want a visual explanation is available here. [https://
 
 DH Key Exchange is often used alongside RSA public key cryptography, to prove the identity of the person you’re talking to with digital signing. This prevents someone from attacking the connection with a man-in-the-middle attack by pretending to be Bob.
 
-###  I understand how Diffie Hellman Key Exchange works at a basic level
+### &#x20;I understand how Diffie Hellman Key Exchange works at a basic level
 
 {% hint style="success" %}
 No answer needed
@@ -304,7 +304,7 @@ PGP stands for Pretty Good Privacy. It’s a software that implements encryption
 
 #### What is GPG?
 
-[GnuPG or GPG](https://gnupg.org/) is an Open Source implementation of PGP from the GNU project. You may need to use GPG to decrypt files in CTFs. With PGP/GPG, private keys can be protected with passphrases in a similar way to SSH private keys. You can attempt to crack this passphrase using John The Ripper and gpg2john.
+[GnuPG or GPG](https://gnupg.org) is an Open Source implementation of PGP from the GNU project. You may need to use GPG to decrypt files in CTFs. With PGP/GPG, private keys can be protected with passphrases in a similar way to SSH private keys. You can attempt to crack this passphrase using John The Ripper and gpg2john.
 
 The man page for GPG can be found online [here](https://www.gnupg.org/gph/de/manual/r1023.html).
 
@@ -312,7 +312,7 @@ The man page for GPG can be found online [here](https://www.gnupg.org/gph/de/man
 
 AES, sometimes called Rijndael after its creators, stands for Advanced Encryption Standard. It was a replacement for DES which had short keys and other cryptographic flaws.
 
-AES and DES both operate on blocks of data \(a block is a fixed size series of bits\).
+AES and DES both operate on blocks of data (a block is a fixed size series of bits).
 
 AES is complicated to explain, and doesn’t seem to come up as often. If you’d like to learn how it works, here’s an excellent video from Computerphile [https://www.youtube.com/watch?v=O4xNJsjtN6E](https://www.youtube.com/watch?v=O4xNJsjtN6E)
 
@@ -324,14 +324,14 @@ No answer needed
 
 ### You have the private key, and a file encrypted with the public key. Decrypt the file. What's the secret word?
 
-```text
+```
 unzip gpg.zip
 gpg --import tryhackme.key
 gpg message.gpg
 cat message
 ```
 
-![](../.gitbook/assets/image%20%28143%29.png)
+![](<../.gitbook/assets/image (180).png>)
 
 {% hint style="success" %}
 Pineapple
@@ -364,4 +364,3 @@ I also recommend the book "Cryptography Apocalypse" By Roger A. Grimes, as this 
 {% hint style="success" %}
 No answer needed
 {% endhint %}
-
